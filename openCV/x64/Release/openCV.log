@@ -1,0 +1,14 @@
+﻿  DrawWorld.cpp
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\DrawWorld.h(20,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\DrawWorld.h(21,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\DrawWorld.h(64,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\DrawWorld.h(65,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  openCV.cpp
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\openCV.cpp(34,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\openCV\openCV.cpp(35,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  2 of 293 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  openCV.vcxproj -> C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\x64\Release\openCV.exe

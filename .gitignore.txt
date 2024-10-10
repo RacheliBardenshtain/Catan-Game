@@ -1,0 +1,67 @@
+# קבצי מערכת
+.DS_Store
+Thumbs.db
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# תיקיות Build
+/build/
+/dist/
+/bin/
+/obj/
+
+# קבצי מערכת ניהול גרסאות של IDEs (כמו Visual Studio, Xcode)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.xcworkspace/
+*.xcuserdata/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+
+# קבצי לוג
+*.log
+
+# קבצים זמניים של מערכת ההפעלה
+*.tmp
+*.swp
+*.swo
+
+# פרויקטים ב-Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+
+# קבצי תלות של Node.js
+node_modules/
+
+# קבצי קומפילציה של Java
+*.class
+
+# קבצי תלות של Maven/Gradle (Java)
+target/
+build/
+
+# קבצים הקשורים ל-Pybind11 (פרויקט שילוב C++ ו-Python)
+*.cpp
+*.pyd
+*.so
+
+# קבצי תלות נוספים שייתכנו
+*.log
+*.lock

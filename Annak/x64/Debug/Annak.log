@@ -1,0 +1,5 @@
+﻿  World.cpp
+C:\Users\USER\Downloads\Annak_ Manufacture\ReadJson.h(46,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Downloads\Annak_ Manufacture\World.cpp(11,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Downloads\Annak_ Manufacture\World.cpp(12,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Annak.vcxproj -> C:\Users\USER\Desktop\רחלי-תכנות\שלב 3\Annak\x64\Debug\Annak.exe
