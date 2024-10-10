@@ -1,0 +1,33 @@
+ECHO is on.
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.vcxproj.filters
+
+# Build directories
+x64/
+x86/
+Debug/
+Release/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Binaries
+*.exe
+*.dll
+*.obj
+*.pdb
+*.lib
+*.idb
+*.ipch
+
+# Logs
+*.log
+
+# OpenCV temporary files (אם יש קבצים זמניים שאת יודעת שיוצרים)
+opencv_temp/
