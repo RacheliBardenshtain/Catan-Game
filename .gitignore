@@ -1,33 +1,56 @@
-ECHO is on.
-# Visual Studio
-.vs/
-*.vcxproj.user
+# Ignore build directories and other unnecessary files
+*.o
+*.obj
+*.exe
+*.dll
+*.log
+*.pyc
+*.pdb
+*.ilk
+*.idb
+*.ipch
 *.suo
 *.user
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+
+# Ignore VS and build system specific files
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+*.VC.VC.db
 *.vcxproj.filters
 
-# Build directories
+# Ignore system generated files
+Thumbs.db
+Desktop.ini
+
+# Ignore backup files
+*~
+
+# Ignore output directories
 x64/
-x86/
 Debug/
 Release/
 
-# CMake files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
+# Ignore specific IDE configurations or project configurations
+*.sln.ide
+.idea/
 
-# Binaries
-*.exe
-*.dll
-*.obj
-*.pdb
-*.lib
-*.idb
-*.ipch
+# Tracking essential C++ project files
+!*.h
+!*.hpp
+!*.cpp
+!*.vcxproj
+!*.vcxproj.filters
 
-# Logs
-*.log
+# JSON config files are often needed in source control
+!*.json
 
-# OpenCV temporary files (אם יש קבצים זמניים שאת יודעת שיוצרים)
-opencv_temp/
+# Keep git configuration and ignore git-specific files
+.gitattributes
+.gitignore
+!.gitignore
