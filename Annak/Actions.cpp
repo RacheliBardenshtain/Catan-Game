@@ -179,7 +179,6 @@ pair<int, int> Actions::DoInput() {
 			int index2 = stoi(steps[i]->arguments[1]);
 			if (worldGame.GetValueByIndex(num1, num2) == "City" ||
 				worldGame.GetValueByIndex(num1, num2) == "Village") {
-				// לבדוק אם להעביר את כל המשאבים מהעיר הנוכחית לעיר האחרת
 			}
 			else if (worldGame.GetValueByIndex(num1, num2) == "Ground" && worldGame.GetAmountOfPeople(num1, num2) > 0) {
 				if (worldGame.IsExistSomeManufacture(num1, num2))
@@ -233,7 +232,6 @@ void Actions::DoAction() {
 				cout << "RoadCount " << worldGame.CountInfrastructure("Road") << endl;
 			else if (command == "VillageCount")
 				cout << "VillageCount " << worldGame.CountInfrastructure("Village") << endl;
-		//לממש את הלוגיקה בהתאם לזמן בניה מהJSON
 			else if (command == "SelectedComplete") {
 				cout << "SelectedComplete false";
 			}
