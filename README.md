@@ -7,7 +7,7 @@ ANNAK is a C++ game inspired by the mechanics of *Catan*, designed to deliver an
 
 The following is an example of the game's visual interface:
 
-![image (67)](https://github.com/user-attachments/assets/b1e612ec-8558-4ed6-994f-3262051acb85)
+![Uploading image (67).png…]()
 
 
 ##
