@@ -16,16 +16,14 @@ public:
 	json config;
 
 	ReadJson() {
-		ifstream f("configuration.json");
-		
-
-	  if (!f.is_open()) {
-            throw runtime_error("Failed to open configuration file");
-        }
-        config = json::parse(f, nullptr, false);
-        if (config.is_discarded()) {
+	   ifstream f("configuration.json");
+	   if (!f.is_open()) {
+             throw runtime_error("Failed to open configuration file");
+           }
+           config = json::parse(f, nullptr, false);
+           if (config.is_discarded()) {
             throw runtime_error("Failed to parse configuration file");
-        }
+           }
 	}
 
 	unordered_map<string, int> getTiles() const {
