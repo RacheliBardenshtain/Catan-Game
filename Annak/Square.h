@@ -12,7 +12,7 @@ class Square
 {
 public:
 	string nameCategory;
-	//יש לשנות ובמקום זה לבדוק על האובייקט PERSON
+	
 	int amountOfPeople = 0;
 	Person person;
 	string nameResource = "";
