@@ -115,7 +115,7 @@ int World::GetAmountOfPeopleByIndex(int index1, int index2) {
 
 bool World::ValidToBuild(string itemToBuild, int index1, int index2, pair<int, int> sizeOfInfrastructure) {
 	int count = 0;
-	// משמאל
+	// left
 	int length = index2 - 1 + sizeOfInfrastructure.first;
 	for (int i = index2 - 1; i < length && index2 - 1 + length < rows && index1 - 2 >= 0; i++)
 	{
@@ -132,7 +132,7 @@ bool World::ValidToBuild(string itemToBuild, int index1, int index2, pair<int, i
 			return true;
 	}
 
-	//מימין
+	//right
 	count = 0;
 	length = index2 - 1 + sizeOfInfrastructure.first;
 	int column = index1 - 1 + sizeOfInfrastructure.second;
@@ -151,7 +151,7 @@ bool World::ValidToBuild(string itemToBuild, int index1, int index2, pair<int, i
 			return true;
 	}
 
-	//מלמעלה
+	//up
 	count = 0;
 	length = index1 - 1 + sizeOfInfrastructure.first;
 	for (int i = index1 - 1; i < length && index1 - 1 + length < rows; i++)
@@ -169,7 +169,7 @@ bool World::ValidToBuild(string itemToBuild, int index1, int index2, pair<int, i
 			return true;
 	}
 
-	//מלמטה
+	//down
 	count = 0;
 	length = index1 - 1 + sizeOfInfrastructure.first;
 	int row = index2 - 1 + sizeOfInfrastructure.first;
@@ -320,7 +320,6 @@ void World::MoveManufactureToInfrastructure(int fromIndex1, int fromIndex2, int 
 		vector<int> capacity = r.config["Capacities"][GetValueByIndex(toIndex1, toIndex2)];
 		for (int i = 0; i < resources.size(); i++)
 		{
-			//או להעביר עד הקיבולת כמה שנכנס
 			int amount = worldMap[toIndex2 - 1][toIndex1 - 1].infrastructure->resourcesArr[i];
 			if (resources[i] + amount <= capacity[i])
 				worldMap[toIndex2 - 1][toIndex1 - 1].infrastructure->resourcesArr[i] = resources[i];
